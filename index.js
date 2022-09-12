@@ -11,7 +11,7 @@ const users=[{}];
 
 app.use(cors());
 app.get("/",(req,res)=>{
-    res.send("HELL ITS WORKING");
+    res.send("HELLO WORLD");
 })
 
 const server=http.createServer(app);
